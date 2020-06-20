@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <PackageId>LightOps.CQRS</PackageId>
+    <Authors>SorenA</Authors>
+    <Description>.NET Standard package for CQRS.</Description>
+    <IsPackable>true</IsPackable>
+    <RepositoryUrl>https://github.com/SorenA/lightops-cqrs</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
