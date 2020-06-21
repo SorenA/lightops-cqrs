@@ -85,6 +85,13 @@ stages:
               projects: '**/*.csproj'
 
           - task: DotNetCoreCLI@2
+            displayName: Dotnet test
+            inputs:
+              command: test
+              projects: '**/*.Test/*.csproj'
+              arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
+
+          - task: DotNetCoreCLI@2
             displayName: Dotnet pack
             inputs:
               command: pack
