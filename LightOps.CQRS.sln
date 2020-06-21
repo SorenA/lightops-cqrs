@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightOps.CQRS", "src\LightOps.CQRS\LightOps.CQRS.csproj", "{B3117B42-9D21-4015-92BE-85E625EC9BC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightOps.CQRS", "src\LightOps.CQRS\LightOps.CQRS.csproj", "{B3117B42-9D21-4015-92BE-85E625EC9BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightOps.CQRS.Test", "tests\LightOps.CQRS.Test\LightOps.CQRS.Test.csproj", "{FE8D3F18-14F8-42A7-A706-30A9159EFF27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B3117B42-9D21-4015-92BE-85E625EC9BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3117B42-9D21-4015-92BE-85E625EC9BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3117B42-9D21-4015-92BE-85E625EC9BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8D3F18-14F8-42A7-A706-30A9159EFF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8D3F18-14F8-42A7-A706-30A9159EFF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8D3F18-14F8-42A7-A706-30A9159EFF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8D3F18-14F8-42A7-A706-30A9159EFF27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
