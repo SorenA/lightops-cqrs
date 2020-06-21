@@ -8,6 +8,11 @@
     <Description>.NET Standard package for CQRS.</Description>
     <IsPackable>true</IsPackable>
     <RepositoryUrl>https://github.com/SorenA/lightops-cqrs</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LightOps.DependencyInjection" Version="0.1.*" />
+  </ItemGroup>
 
 </Project>

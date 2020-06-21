@@ -7,11 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2020-06-21
+
 ### Added
 
-- None
+- XML documentation on interfaces
+- Test project with unit tests and end-to-end service container registration tests
+- Dependency Injection component for service registration in the service container
+- `IDependencyInjectionRootComponent` extension `AddCqrs` to attach component to root component
 
-## [0.1.0] - 2020-06-20
+## [0.1.0] - 2020-06-21
 
 ### Added
 
@@ -27,5 +32,6 @@ commands using `ICommandHandler`s in service provider
 - `IQueryDispatcher` and implementation `QueryDispatcher` to dispatch and handle
 queries using `IQueryHandler`s in service provider
 
-[unreleased]: https://github.com/SorenA/lightops-cqrs/compare/0.1.0...develop
+[unreleased]: https://github.com/SorenA/lightops-cqrs/compare/0.2.0...develop
+[0.2.0]: https://github.com/SorenA/lightops-cqrs/tree/0.2.0
 [0.1.0]: https://github.com/SorenA/lightops-cqrs/tree/0.1.0
