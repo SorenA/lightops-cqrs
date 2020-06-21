@@ -33,3 +33,29 @@ Resolves query handler using the `IQueryDispatcher` interface using the query an
 Throws a `QueryHandlerNotFoundException` if no query handler is found.
 
 Dispatch using `IQueryDispatcher.DispatchAsync<TQuery, TResult>(TQuery query)`.
+
+## Attaching the component
+
+Register during startup through the `AddCqrs` extension on `IDependencyInjectionRootComponent`.
+
+```csharp
+// Add root component
+services.AddLightOpsDependencyInjection(root =>
+{
+    // Add component
+    root.AddCqrs(component =>
+    {
+        // Configure component
+        // ...
+    });
+
+    // Register other components
+    // ...
+});
+```
+
+Overrides may be registered in the component configurator action, see `ICqrsComponent` for documentation.
+
+### Required component dependencies
+
+- `LightOps.DependencyInjection` - 0.1.x
