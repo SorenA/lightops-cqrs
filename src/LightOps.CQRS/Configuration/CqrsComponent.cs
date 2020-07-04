@@ -27,8 +27,8 @@ namespace LightOps.CQRS.Configuration
 
         private readonly Dictionary<Services, ServiceRegistration> _services = new Dictionary<Services, ServiceRegistration>
         {
-            [Services.CommandDispatcher] = ServiceRegistration.Scoped<ICommandDispatcher, CommandDispatcher>(),
-            [Services.QueryDispatcher] = ServiceRegistration.Scoped<IQueryDispatcher, QueryDispatcher>(),
+            [Services.CommandDispatcher] = ServiceRegistration.Transient<ICommandDispatcher, CommandDispatcher>(),
+            [Services.QueryDispatcher] = ServiceRegistration.Transient<IQueryDispatcher, QueryDispatcher>(),
         };
 
         public ICqrsComponent OverrideCommandDispatcher<T>()
