@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2020-07-04
+
+### Changed
+
+- `ICommandDispatcher` lifespan changed to transient from scoped
+- `IQueryDispatcher` lifespan changed to transient from scoped
+
 ## [0.2.0] - 2020-06-21
 
 ### Added
@@ -32,6 +39,7 @@ commands using `ICommandHandler`s in service provider
 - `IQueryDispatcher` and implementation `QueryDispatcher` to dispatch and handle
 queries using `IQueryHandler`s in service provider
 
-[unreleased]: https://github.com/SorenA/lightops-cqrs/compare/0.2.0...develop
+[unreleased]: https://github.com/SorenA/lightops-cqrs/compare/0.3.0...develop
+[0.3.0]: https://github.com/SorenA/lightops-cqrs/tree/0.3.0
 [0.2.0]: https://github.com/SorenA/lightops-cqrs/tree/0.2.0
 [0.1.0]: https://github.com/SorenA/lightops-cqrs/tree/0.1.0
