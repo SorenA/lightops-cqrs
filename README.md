@@ -6,8 +6,8 @@ CQRS package for .NET Standard.
 
 | Branch | CI |
 | --- | --- |
-| master | ![Build Status](https://dev.azure.com/sorendev/LightOps%20Packages/_apis/build/status/SorenA.lightops-cqrs?branchName=master) |
-| develop | ![Build Status](https://dev.azure.com/sorendev/LightOps%20Packages/_apis/build/status/SorenA.lightops-cqrs?branchName=develop)|
+| master | ![Build Status](https://dev.azure.com/sorendev/LightOps%20Packages/_apis/build/status/LightOps.CQRS?branchName=master) |
+| develop | ![Build Status](https://dev.azure.com/sorendev/LightOps%20Packages/_apis/build/status/LightOps.CQRS?branchName=develop)|
 
 ## Concepts
 
